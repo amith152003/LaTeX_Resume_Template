@@ -57,7 +57,7 @@ This is a LaTeX-based resume template designed to create a clean, professional C
 Example
 ```bash
 \CVSubheading
-{Bachelor of Technology $|$ \emph{\small{Electronics and Communication}}}{\small Expected in 2024}
+{Bachelor of Technology $|$ \emph{\small{Electronics and Communication}}}{\small Expected in 2025}
 {Ahalia School of Engineering and Technology, Palakkad}{}
 ```
 
