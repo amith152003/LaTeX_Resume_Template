@@ -1,0 +1,318 @@
+\documentclass[A4,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{tikz}
+\input{glyphtounicode}
+\usepackage{ragged2e}
+\usepackage[left=0.4in, right=0.4in, top=0.4in, bottom=0.4in]{geometry}
+% serif\usepackage{palatino}
+\usepackage{times} 
+% \usepackage{charter}
+
+
+
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0cm}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that .pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+\newcommand{\CVItem}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\CVSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\small#3 & \small #4 \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\CVSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\text{\small#1} & \text{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\CVSubItem}[1]{\CVItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\CVSubHeadingListStart}{\begin{itemize}[leftmargin=0.5cm, label={}]}
+		\newcommand{\CVSubHeadingListEnd}{\end{itemize}}
+	\newcommand{\CVItemListStart}{\begin{itemize}}
+		\newcommand{\CVItemListEnd}{\end{itemize}\vspace{-5pt}}
+	
+
+\begin{document}
+		
+		
+		\begin{minipage}[c]{0.2\textwidth}
+			\begin{tikzpicture}
+				\clip (-1,-3) rectangle (2.5,0.6);
+				\node at (.6,-1.3) {\includegraphics[width = 3cm]{"H:/LATEX PROJECT/RESUME 2024/Amith Mathew Titus.jpg"}}; 
+			\end{tikzpicture}
+			\hfill\vline\hfill
+		\end{minipage}
+		\begin{minipage}[c]{0.6\textwidth}
+			\textbf{\Huge \scshape{Amith Mathew Titus}}
+			\vspace{10pt} \\
+			\small{Palakkad, Kerala, 678551}\\ 
+			\small{+91 9496524417} \\
+			\href{mailto:amithmathewtitus@outlook.com}{amithmathewtitus@outlook.com}\\
+			\href{https://www.linkedin.com/in/amith-mathew-titus/}{https://www.linkedin.com/in/amith-mathew-titus/} \\
+			\href{https://github.com/amith152003}{https://github.com/amith152003}
+		\end{minipage}
+		
+		% Without picture
+		%\begin{center}
+		%    	\textbf{\Huge \scshape{Amith Mathew Titus}} \\ \vspace{1pt} 
+		%		\small{+91 9496524417} \\
+		%		\href{mailto:amithmathewtitus@outlook.com}{amithmathewtitus@outlook.com}\\
+		%		\href{https://www.linkedin.com/in/amith-mathew-titus/}{https://www.linkedin.com/in/amith-mathew-titus/} \\
+		%		\href{https://github.com/amith152003}{https://github.com/amith152003}
+		%\end{center}
+		
+		%-----SUMMARY----------------------------------------------------------------
+		\section{Summary}
+		\vspace{-5pt}
+		\begin{justify}
+			\begin{itemize}[leftmargin=0.5cm, label={}]
+				{A passionate and highly skilled student in Electronics and Communication Engineering
+				with a strong foundation in both electronic and software engineering. Experienced in
+				designing and developing IoT and embedded systems, with a proven track record of
+				completing multiple projects that blend hardware and software solutions. Actively
+				enhances knowledge through various certifications and trainings beyond the
+				standard curriculum. As an Empaneled Arduino Trainer, passionately inspires and
+				motivates young minds to explore the exciting world of electronics and software,
+				fostering a new generation of innovators.}
+			\end{itemize}
+		\end{justify}
+		\vspace{-20pt}
+		
+		%-----SKILLS-------------------------------------------------------------------
+		\section{Skills}
+		\begin{itemize}[leftmargin=0.5cm, label={}]
+			\small\item \textbf{Technical Skills}
+				\vspace{-10pt}
+				\begin{itemize}[leftmargin=0.5cm, label={• }]
+				\small{	\item	\textbf{Programming}{:  C, Embedded C, Python, Java, Verilog} \vspace{-4pt}
+						\item	\textbf{Electronics}{: Circuit Design, PCB Layout Design, Embedded Systems, FPGAs} \vspace{-4pt}
+						\item	\textbf{Software tools expertise}{: ModelSim, Vivado, LT Spice, CCS, MATLAB, LaTeX, Scilab, KiCAD, Arduino IDE, ROS, QGIS, Blender, Ableton Live, Audacity, Adobe Premiere Pro, Adobe After Effects, Microsoft Office}}
+				\end{itemize}
+			\vspace{-10pt}
+			\small\item {\textbf{Soft Skills}}
+				\vspace{-10pt}
+				\begin{itemize}[leftmargin=0.5cm, label={• }]
+					\small{	\item	Excellent verbal and written communication skills \vspace{-4pt}
+							\item	Strong analytical and troubleshooting skills}
+				\end{itemize}
+		\end{itemize}
+		\vspace{-20pt}
+		
+		%-----EDUCATION----------------------------------------------------------------
+		\section{Education}
+		\CVSubHeadingListStart
+		%    \CVSubheading % Example
+		%      {Degree Achieved}{Years of Study}
+		%      {Institution of Study}{Where it is located}
+		\CVSubheading
+		{{Bachelor of Technology $|$ \emph{\small{Electronics and Communication}}}}{\small Expected in May 2025}
+		{Ahalia School of Engineering and Technology, Palakkad, Kerala}{}
+		\CVSubHeadingListEnd
+		
+		%-----PROFESSIONAL AFFILIATIONS----------------------------------------------------------		
+		\section{Professional Affiliations}
+		\CVSubHeadingListStart
+		%    \CVSubheading %Example
+		%      {What you did}{When you worked there}
+		%      {Who you worked for}{Where they are located}
+		%      \CVItemListStart
+		%        \CVItem{Why it is important to this employer}
+		%      \CVItemListEnd
+		\CVSubheading
+		{Student Lead}{ }
+		{Innovation and Entrepreneurship Development Centre [IEDC] – ASET}{}
+
+		\CVSubheading
+		{Student Chair }{}
+		{IEEE Robotics and Automation Society – ASET}{}
+
+		\CVSubheading
+		{NSS Volunteer}{ }
+		{National Service Scheme Unit – ASET}{}
+		
+		\CVSubHeadingListEnd
+		
+		%-----AWARDS, ACCOMPLISHMENTS AND ACCOLADES--------------------------------------------------------
+		\section{Awards, Accomplishments and Accolades}
+		\CVSubHeadingListStart
+		\CVSubheading
+		{First Prize in DiHack hackathon}{\small Dec 2024}
+		{IEEE Kerala Section and Digital Core Technologies}{}
+		\CVSubheading
+		{Empaneled Arduino Trainer as part of Little KITEs}{\small Aug 2024}
+		{Kerala Infrastructure and Technology for Education [KITE], Govt. of Kerala}{}
+		\CVSubheading
+		{Quantum GIS Workshop}{\small Jul 2024}
+		{ICFOSS, Thiruvananthapuram, Govt. of Kerala undertaking}{}
+		\CVSubheading
+		{Verilog HDL Advanced Course}{\small Dec 2023}
+		{Intel Corporation}{}
+		\CVSubheading
+		{Workshop for Intel® FPGAs Course}{\small Sep 2023}
+		{Intel Corporation}{}
+		\CVSubheading
+		{CDAC's SWADARSH 23' Final Round Participation}{\small Sep 2023}
+		{National Level and was selected as a finalist from among 146 colleges participated from all across India}{}
+		\CVSubHeadingListEnd
+		
+		%-----PROJECTS AND RESEARCH----------------------------------------------------	
+		\section{Projects and Research}
+		\CVSubHeadingListStart
+		\CVSubheading
+		{{Robust Analytical Vehicle for Exploration and Navigation} $|$ \emph{\small{NVIDIA Jetson, Arduino, ROS2}}}{{\small Sep 2024 -- Present}}
+		{}{}
+		\vspace{-20pt}
+		\CVItemListStart
+			\CVItem{Developed a UGV for exploration in challenging environments.}
+			\CVItem{Integrated sensors for versatile navigation and data collection.}
+			\CVItem{Designed for scalability in diverse exploration tasks.}
+		\CVItemListEnd
+		
+		\CVSubheading
+		{{Wind Tunnel Smart Air Flow Stabilization System} $|$ \emph{\small{Arduino, AVR C code, PID Control}}}{\small Dec 2024 -- Dec 2024}
+		{}{}
+		\vspace{-20pt}
+		\CVItemListStart
+		\CVItem{Ensures stable airflow by adjusting fan speed based on real-time feedback.}
+		\CVItem{Uses a flex sensor to measure flap angular displacement.}
+		\CVItem{PID control maintains a consistent flap angle.}
+		\CVItemListEnd
+		
+		\CVSubheading
+		{{POWERTRACK: Smart Energy Monitoring with IoT Metering} $|$ \emph{\small{ESP32, Firebase, Arduino}}}{\small Feb 2024 -- Apr 2024}
+		{}{}
+		\vspace{-20pt}
+		\CVItemListStart
+		\CVItem{Created an IoT system to measure Voltage, Current, Power, and Energy.}
+		\CVItem{Automated billing based on real-time usage data.}
+		\CVItem{Enabled data storage for easy access and monitoring.}
+		\CVItemListEnd
+		
+		\CVSubheading
+		{{HYDROSMART: Wireless Smart Water Level Indicator} $|$ \emph{\small{Arduino, ESP32, GFSK}}}{\small Jan 2024 -- Feb 2024}
+		{}{}
+		\vspace{-20pt}
+		\CVItemListStart
+		\CVItem{Developed a system for automated water level detection and motor regulation.}
+		\CVItem{Included Automatic, Manual, and Level-Based modes for flexible control.}
+		\CVItem{Enabled wireless operation within a 200 to 350-meter range.}
+		\CVItemListEnd
+		
+		\CVSubheading
+		{{An IoT-Based Autonomous Robot for Closed Waterbodies} $|$ \emph{\small{Raspberry Pi, Python, Arduino}}}{\small Nov 2022 -- Sep 2023}
+		{}{}
+		\vspace{-20pt}
+		\CVItemListStart
+		\CVItem{Created a cost-effective prototype to address plastic pollution in small water bodies.}
+		\CVItem{Designed for efficient plastic waste collection to protect aquatic ecosystems.}
+		\CVItem{Scalable solution for global water pollution.}
+		\CVItemListEnd
+		
+		\CVSubheading
+		{{Class-D Audio Amplifier} $|$ \emph{\small{Analog Circuit Design, Analog Signal Processing, Audio Amplifiers}}}{\small Oct 2022 -- Dec 2022}
+		{}{}
+		\vspace{-20pt}
+		\CVItemListStart
+		\CVItem{Designed a compact 15W Class-D amplifier for clear, efficient sound.}
+		\CVItem{Provided versatile connectivity and durable build for reliable performance.}
+		\CVItem{Ensured high-quality audio reproduction.}
+		\CVItemListEnd
+		\CVSubHeadingListEnd
+				
+		%-----INTERNSHIPS------------------------------------------------------
+		\section{Internships}
+		\CVSubHeadingListStart
+		\CVSubheading
+		{\textbf{Southern Railways Palakkad Division} [Signals and Telecommunication Department]}{\small Jul 2024}
+		{\textbf{Duration:} 11 Days}{}
+		\CVSubHeadingListEnd
+		
+		%-----INSTITUTIONS OF NATIONAL IMPORTANCE VISITED----------------------------------------------------
+		\section{Institutions of National Importance Visited}
+		\CVSubHeadingListStart
+		\CVSubheading
+		{Thumba Equatorial Rocket Launching Station (TERLS)}{}
+		{Vikram Sarabhai Space Centre (VSSC), Thiruvananthapuram, Kerala}{}
+		\CVSubheading
+		{Kudankulam Nuclear Power Plant (KKNPP)}{}
+		{Tirunelveli, Tamil Nadu}{}
+		\CVSubHeadingListEnd
+		
+		%-----OUTREACH ACTIVITIES----------------------------------------------------
+		\section{Outreach Activities}
+		\CVSubHeadingListStart
+		\CVSubheading
+		{Conducted an Arduino Training Session for students of Kendriya Vidyalaya}{}
+		{Kendriya Vidyalaya, Olavakkode, Palakkad, Kerala}{}
+		\CVSubheading
+		{Conducted an Arduino Training Session for students of G.A.P.H.S.S}{}
+		{G.A.P.H.S.S. Elapully, Palakkad, Kerala}{}
+		\CVSubHeadingListEnd
+		
+		%-----PERSONAL INFORMATION----------------------------------------------------
+		\section{Personal Information}
+
+		\CVSubHeadingListStart
+		%    \CVSubheading %Example
+		%      {What you did}{When you worked there}
+		%      {Who you worked for}{Where they are located}
+		\CVSubheading
+		{}{}
+		{}{}
+		\vspace{-30pt}
+		\CVSubItem{\normalsize \textbf{Date of Birth}: 15/05/2003}
+		\CVSubItem{\normalsize \textbf{Gender}: Male}
+		\CVSubItem{\normalsize \textbf{Nationality}: Indian}
+		\CVSubHeadingListEnd
+		
+		%-----LANGUAGES KNOWN----------------------------------------------------
+		\section{Languages Known}
+		
+		\CVSubHeadingListStart
+		\CVSubheading
+		{}{}
+		{}{}
+		\vspace{-30pt}
+		\CVSubItem{\normalsize English}
+		\CVSubItem{\normalsize Hindi}
+		\CVSubItem{\normalsize Malayalam}
+		\CVSubItem{\normalsize Tamil}
+		\CVSubHeadingListEnd
+		
+		
+		
+		%------------------------------------------------------------------------------
+	\end{document}
