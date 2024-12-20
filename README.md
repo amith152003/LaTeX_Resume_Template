@@ -68,6 +68,3 @@ Example
 This template is open-source and free to use. You can modify it for personal or professional use.
 MIT License
 
----
-
-This `README.md` file is designed to guide users through setting up and customizing the LaTeX resume template. It provides a simple overview, usage instructions, and how to customize various sections of the template.
